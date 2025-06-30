@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Allowing Oscillation Quantization: Overcoming Solution Space Limitation in Low Bit-Width Quantization"
-permalink: /AOQ/
+permalink: /aoq/
 ---
 
 # Allowing Oscillation Quantization: Overcoming Solution Space Limitation in Low Bit-Width Quantization
@@ -46,6 +46,7 @@ In this work, we found that
 
 
 ## Run
+
 
 ### 1. Requirements:
 - python 3.9, pytorch>=2.0
