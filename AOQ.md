@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: paper
 title: "Allowing Oscillation Quantization: Overcoming Solution Space Limitation in Low Bit-Width Quantization"
 permalink: /AOQ/
 ---
