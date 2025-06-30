@@ -33,7 +33,7 @@ In this work, we found that
 3. By decoupling quantization thresholds and levels, the learnable quantization parameters exhibit greater stability during training.
 
 <div align="center">
-    <img src="images/AOQ/figure1.png" width="450" alt="AOQ Figure 1">
+    <img src="images/aoq_figure1.png" width="450" alt="AOQ Figure 1">
 </div>
 
 ## Training Pipeline
@@ -42,20 +42,20 @@ In this work, we found that
 - In the second stage, we fix $s_{th}$ and set $s_{le}$ as a learnable parameter for optimization. As $s_{le}$ increases during training, the intervals between quantization levels widen, making the cost of mapping errors from floating-point weights to quantized values higher, thereby gradually reducing oscillation. The quantizer is:
 
   <div align="center">
-      <img src="images/AOQ/formula1.png" width="400" alt="AOQ Formula 1">
+      <img src="images/aoq_formula1.png" width="400" alt="AOQ Formula 1">
   </div>
 
   `thresh[i]` and `level[i]` represent the (i+1)-th threshold and level, respectively, in ascending numerical order.
   The optimized quantized weights are denoted as:
 
   <div align="center">
-      <img src="images/AOQ/formula2.png" width="250" alt="AOQ Formula 2">
+      <img src="images/aoq_formula2.png" width="250" alt="AOQ Formula 2">
   </div>
 
 - In the third stage, we employ the *Oscillation Dampening* method outlined in [Nagel et al., 2022]. This method adds a penalty term to the loss function:
 
   <div align="center">
-      <img src="images/AOQ/formula3.png" width="200" alt="AOQ Formula 3">
+      <img src="images/aoq_formula3.png" width="200" alt="AOQ Formula 3">
   </div>
 
   where $\lambda$ is a hyperparameter. $\mathcal{L}_{\text{dampen}}$ pulls weights oscillating near the quantization thresholds away to suppress oscillation.
@@ -83,7 +83,7 @@ bash run.sh architecture n_bits quantize_downsampling
 ## Toy Example
 
 <div align="center">
-    <img src="images/AOQ/figure2.png" width="700" alt="AOQ Figure 2">
+    <img src="images/aoq_figure2.png" width="700" alt="AOQ Figure 2">
 </div>
 
 ### Run Command
