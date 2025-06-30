@@ -2,11 +2,11 @@
 layout: post
 title:  "Flexible Techniques for Differentiable Rendering with 3D Gaussians"
 date:   2025-06-26 22:21:59 +00:00
-image: /images/3dgaussian.jpg
+image: /images/aoq_cover.png
 categories: research
 author: "Zihan Meng"
-authors: "Weiying Xie, <strong>Zihan Meng/strong>, Jitao Ma, Wenjin Guo, Haowei Li, Haonan Qin, Leyuan Fang, Yunsong Li"
-venue: "International Conference on Computer Vision 2025"
+authors: "Weiying Xie, <strong>Zihan Meng</strong>, Jitao Ma, Wenjin Guo, Haowei Li, Haonan Qin, Leyuan Fang, Yunsong Li"
+venue: "International Conference on Computer Vision"
 code: https://github.com/muzenc/aoq
 website: https://muzenc.github.io/aoq
 ---
