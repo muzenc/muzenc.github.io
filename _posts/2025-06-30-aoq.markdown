@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Flexible Techniques for Differentiable Rendering with 3D Gaussians"
+title:  "Allowing Oscillation Quantization: Overcoming Solution Space Limitation in Low Bit-Width Quantization"
 date:   2025-06-26 22:21:59 +00:00
 image: /images/aoq_cover.png
 categories: research
