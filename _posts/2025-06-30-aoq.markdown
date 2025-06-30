@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Flexible Techniques for Differentiable Rendering with 3D Gaussians"
+date:   2025-06-26 22:21:59 +00:00
+image: /images/3dgaussian.jpg
+categories: research
+author: "Zihan Meng"
+authors: "Weiying Xie, <strong>Zihan Meng/strong>, Jitao Ma, Wenjin Guo, Haowei Li, Haonan Qin, Leyuan Fang, Yunsong Li"
+venue: "International Conference on Computer Vision 2025"
+code: https://github.com/muzenc/aoq
+website: https://muzenc.github.io/aoq
+---
+We propose a novel quantization-aware training method, Allowing Oscillation Quantization (AOQ), which enhances low-bit quantization by encouraging weight oscillation in early training to explore a broader solution space and suppressing it later to ensure stable convergence.
